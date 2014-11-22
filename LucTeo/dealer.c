@@ -27,7 +27,7 @@ int main (void)
 
     char* msg = "LucTeo (blue shirt + red)";
     int caught = 0;
-    while ( 1 )
+    // while ( 1 )
     {
         rc = zstr_send (server, msg);
         checkRetCode(rc);
